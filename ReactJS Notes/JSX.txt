@@ -1,0 +1,63 @@
+  JSX In React js
+ 
+     JSX Stands for JavaScript XML
+ 
+     JSX allows us to write HTML in React.
+
+      JSX makes it easier to write and add HTML in React.
+ 
+     In below example we have saw that we can use html element
+     So that html element are called as JSX in React.
+ 
+ 
+
+ ReactDOM.render(
+   <h1>Zahid Chand </h1>,
+   document.getElementById("root")
+ );
+ 
+ Render Multiple Elements(JSX) Inside ReactDOM.render()
+ 
+   Till now we saw only 1 JSX in our render()
+   What if we want multiple of them
+   
+     EG -->
+       ReactDOM.render(
+       <h1>Zahid Chand </h1>
+       <p>Hello , We are learning React</p>,
+       document.getElementById("root")
+      );
+      
+      It will give us an error
+  Error -->
+     Parsing error: Adjacent JSX elements must be wrapped in an enclosing tag.
+     Did you want a JSX fragment
+     
+     It's diplay us an error that render method will only take one element
+ To solve that issue we have to pass it into one tag
+ 
+  Let's suppose div tage and it will solve that problem.
+ 
+ 
+ 
+  ReactDOM.render(
+   <div>
+     <h1>Zahid Chand </h1>
+     <p>Hello , We are learning React</p>
+   </div>,
+   document.getElementById("root")
+ );
+ 
+ 
+ O/P -->
+     Zahid Chand
+      Hello , We are learning React
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
