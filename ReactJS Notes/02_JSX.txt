@@ -52,7 +52,16 @@
  O/P -->
      Zahid Chand
       Hello , We are learning React
- 
+      
+          In react v16 and about we can write array of elements [] insted of div tag
+
+  ReactDOM.render(
+   [  
+   <h1>Zahid Chand </h1>,
+   <p>Hello , We are learning React</p>,
+   ],
+   document.getElementById("root")
+ );
  
  
  
