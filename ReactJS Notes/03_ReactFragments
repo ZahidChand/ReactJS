@@ -1,0 +1,29 @@
+    When we use div tag then in browser when we inspect then we get div inside div
+  that means we are already passing that value to div tag whose id is root
+  and again we are sending div from our JSX .
+  So it can lead us to a problem that while applying css we can get some issue
+  regarding that.
+  So to solve that issue we have React Fragments
+  We can use tag
+  
+  <React.Fragment>
+     </React.Fragment>
+     
+     
+     Eg -->
+
+     ReactDOM.render(
+        <React.Fragment>
+          <h1>Zahid Chand </h1>
+          <p>Hello , We are learning React</p>
+        </React.Fragment>,
+        document.getElementById("root")
+      );
+      
+       Inside that we need to write our JSX
+
+     NOTE --> React 16.2 has introduced a syntactical sugar for Fragments.
+     <>
+     </>
+     
+          This will also work
