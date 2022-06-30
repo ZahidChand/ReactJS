@@ -16,3 +16,15 @@ We have saw how we use html in out js file
 NOTE --->
               In this {} we can only use expression , we cannot use Statements
               Statements are if  else,switch etc we cannot use Statements.
+
+ const myName = "Heisenberg"
+ ReactDOM.render(
+   <>
+     <h1>Say My Name {myName}</h1>
+     <p>We can also perform calculations inside -- {2 * 4}</p>
+   </>,
+   document.getElementById("root")
+ );
+
+   O/P-->  Say My Name Heisenberg
+           We can also perform calculations inside -- 8
