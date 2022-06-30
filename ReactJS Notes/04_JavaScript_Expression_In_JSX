@@ -1,3 +1,18 @@
 We have saw how we use html in out js file
      But if we want to use Js again in our html element then we can use it
      by {} inside this
+     
+     
+ const myName = "Heisenberg"
+          ReactDOM.render(
+          <h1>Say My Name myName</h1>,
+          document.getElementById("root")
+          );
+          
+ O/P --> Say My Name myName
+        To use Js in HTML Element we need to add {} .
+
+
+NOTE --->
+              In this {} we can only use expression , we cannot use Statements
+              Statements are if  else,switch etc we cannot use Statements.
