@@ -1,6 +1,6 @@
   JSX In React js
  
-     JSX Stands for JavaScript XML
+     JSX Stands for JavaScript XML. 
  
      JSX allows us to write HTML in React.
 
