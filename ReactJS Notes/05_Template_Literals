@@ -1,2 +1,14 @@
   Template literals are literals delimited with backtick (`) characters, allowing for multi-line strings, for string interpolation with embedded expressions, and for special constructs called tagged templates.
       It concat 2 or more string
+      
+      
+ const fName = "Walter";
+ const lName = "White";
+ ReactDOM.render(
+   <h3>{`My First Name Is ${fName} And Last Name Is ${lName}`}</h3>
+   , document.getElementById("root")
+ )
+
+/*
+O/P---> My First Name Is Walter And Last Name Is White
+*/
