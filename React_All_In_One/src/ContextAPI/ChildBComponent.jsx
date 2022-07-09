@@ -14,4 +14,5 @@ const ChildBComponent = () => {
     )
 
 }
+
 export default ChildBComponent;
