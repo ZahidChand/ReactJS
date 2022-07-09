@@ -20,6 +20,7 @@ const ChildCComponent = () => {
         </>
     );
 }
+
 export default ChildCComponent;
 
 // Consumer will only return a function it will not return Element tag
