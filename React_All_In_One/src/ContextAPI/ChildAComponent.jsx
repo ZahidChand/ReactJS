@@ -4,4 +4,5 @@ const ChildAComponent = () => {
     return <ChildBComponent />
 
 }
+    
 export default ChildAComponent;
