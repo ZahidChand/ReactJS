@@ -1,0 +1,14 @@
+JSX Attribute In ReactJS HTML Attribute Vs JSX Attribute
+
+/**
+ *    Like in html element we have tags attributes
+ * Eg -->
+ *      <a href="" target=""></a>
+ * So this href and target are attributes.
+ * As we are using this JS in HTML its called as JSX and its attributes are
+ * called as JSX Attributes
+ *
+ * To checkout more attributes just search HTML Global Attributes and
+ * you will get all attributes.
+ *
+ */
