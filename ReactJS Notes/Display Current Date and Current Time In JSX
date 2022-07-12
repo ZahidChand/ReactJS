@@ -1,0 +1,13 @@
+Display Current Date and Current Time In JSX
+
+// let curDate = new Date().toLocaleDateString();
+// let curTime = new Date().toLocaleTimeString();
+// ReactDOM.render(
+//   <>
+//     <h2>Hello, My name is Zahid</h2>
+//     <p>Current Date is {curDate} </p>
+//     <p>And Time is {curTime} </p>
+//   </>,
+//   document.getElementById("root")
+
+// );
