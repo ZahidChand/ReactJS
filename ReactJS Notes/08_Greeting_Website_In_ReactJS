@@ -1,15 +1,15 @@
 Greeting Website In ReactJS
 
-// let greeting = '';
-// let curDate = new Date()
-// let curHour = curDate.getHours()
-// const cssStyle = {};
+ let greeting = '';
+ let curDate = new Date()
+ let curHour = curDate.getHours()
+ const cssStyle = {};
 
-// if (curHour >= 1 && curHour < 12) {
-//   greeting = "Good Morning";
-//   cssStyle.color = "green";
-// }
-// else if (curHour >= 12 && curHour < 20) {
+ if (curHour >= 1 && curHour < 12) {
+   greeting = "Good Morning";
+   cssStyle.color = "green";
+ }
+ else if (curHour >= 12 && curHour < 20) {
 //   greeting = "Good Afternoon";
 //   cssStyle.color = "orange";
 // }
