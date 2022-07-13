@@ -10,13 +10,13 @@ Greeting Website In ReactJS
    cssStyle.color = "green";
  }
  else if (curHour >= 12 && curHour < 20) {
-//   greeting = "Good Afternoon";
-//   cssStyle.color = "orange";
-// }
-// else {
-//   greeting = "Good Night"
-//   cssStyle.color = "black";
-// }
+   greeting = "Good Afternoon";
+   cssStyle.color = "orange";
+ }
+ else {
+   greeting = "Good Night"
+   cssStyle.color = "black";
+ }
 
 // ReactDOM.render(
 //   <>
