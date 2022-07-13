@@ -18,12 +18,12 @@ Greeting Website In ReactJS
    cssStyle.color = "black";
  }
 
-// ReactDOM.render(
-//   <>
-//     <div>
-//       <h1>Hey.. <span style={cssStyle}>{greeting}</span></h1>
-//     </div>
-//   </>,
-//   document.getElementById("root")
+ ReactDOM.render(
+   <>
+     <div>
+       <h1>Hey.. <span style={cssStyle}>{greeting}</span></h1>
+     </div>
+   </>,
+   document.getElementById("root")
 
-// );
+ );
