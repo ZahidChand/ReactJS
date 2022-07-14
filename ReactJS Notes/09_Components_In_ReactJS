@@ -18,3 +18,12 @@ Components_In_ReactJS
           And gives your component access to React.Component's functions.
           
           The component also requires a render() method, this method returns HTML.
+
+
+ Eg --->
+              Create a Class component called Car
+              class Car extends React.Component {
+                render() {
+                  return <h2>Hi, I am a Car!</h2>;
+                }
+              }
