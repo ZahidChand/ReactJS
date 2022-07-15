@@ -44,3 +44,31 @@ Components_In_ReactJS
         }
       NOTE--> We will mainly focus on Function Component
  */
+ 
+ /**
+     * ReactDOM.render(
+<>
+  <h1>UFC</h1>
+  <p>List Of Some UFC Champions</p>
+  <ol>
+    <li>khabib nurmagomedov</li>
+    <li>Jon Jones</li>
+    <li>Daniel Cormier</li>
+    <li>GSP</li>
+    <li>Francis Ngannou</li>
+  </ol>
+</>
+, document.getElementById("root")
+);
+    Till now we have wrote using hard code without creating Components.
+    Now we will learn how to create components.
+    NOTE --> Component Name Should Start With First Letter Capital.
+*/
+ ReactDOM.render(
+   <>
+     <Heading />
+     <Para />
+     <OrderedList />
+   </>
+   , document.getElementById("root")
+ );
