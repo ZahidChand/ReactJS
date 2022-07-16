@@ -10,6 +10,7 @@ Components_In_ReactJS
     Components come in two types, Class components and Function components,
 
 
+
  ***Class Component:--->
           A class component must include the extends React.Component statement.
           
