@@ -68,6 +68,7 @@ Components_In_ReactJS
 */
  ReactDOM.render(
    <>
+   
      <Heading />
      <Para />
      <OrderedList />
