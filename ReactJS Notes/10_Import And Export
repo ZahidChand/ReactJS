@@ -8,3 +8,18 @@ Import And Export
       ES Modules rely on the import and export statements.
  *
  */
+ 
+  ReactDOM.render(
+   <>
+     <h2>List Of Fighters</h2>
+     <ol>
+       <li>Khabib</li>
+       <li>{fighter1}</li>
+       <li>{fighter2}</li>
+       <li>{fighter3()} </li>
+       <li>{fighter4()} </li>
+     </ol>
+
+   </>,
+   document.getElementById("root")
+ );
