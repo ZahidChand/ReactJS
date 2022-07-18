@@ -1,0 +1,10 @@
+import add, { sub, mul, div } from './calculations/Calc'
+ ReactDOM.render(
+   <ol>
+     <li>Addition Of 2 No Is --- {add(2, 5)} </li>
+     <li>Subtraction Of 2 No Is --- {sub(10, 6)} </li>
+     <li>Multiplication Of 2 No Is --- {mul(5.71, 4.76)}</li>
+     <li>Division Of 2 No Is --- {div(100, 5)} </li>
+   </ol>,
+   document.getElementById("root")
+ );
