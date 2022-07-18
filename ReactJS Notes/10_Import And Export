@@ -23,3 +23,8 @@ Import And Export
    </>,
    document.getElementById("root")
  );
+ 
+ 
+ /** Fighter3 and Fighter4 are methods so we need to give () sign then
+ * only it will get displayed.
+ */
