@@ -18,4 +18,15 @@
          arr (Optional)    ----> The array Object the current element belong to
  
 
+ Eg -->
+ 
+       const studentData = [
+  { id :1, name : "Walter" , degree : "PHD"};
+  { id :2, name : "Jessy" , degree : "BCA"};
+  { id :3, name : "Skyler" , degree : "MBA"};
+  ];
+  const newStudentData = studentData.map((currentValue) =>{
+     return `My Name Is ${currentValue.name}`;
+  });
+  console.log(newStudentData);
 
