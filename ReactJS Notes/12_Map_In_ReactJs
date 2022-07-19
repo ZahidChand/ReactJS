@@ -1,0 +1,7 @@
+ *****Map In reactJs*****
+ 
+ The map() create a new array with the results of calling a  function
+ for every array element.
+ 
+  The map() calls the provided function once for each element in an array,
+ in order.
