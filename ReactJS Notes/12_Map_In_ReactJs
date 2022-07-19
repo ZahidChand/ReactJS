@@ -8,12 +8,14 @@
  
  
  
- *  Syntax -->
- *      array.map(function(currentValue,index,arr),thisValue)
- *
- *         Argument          Description
- *
- *        CurrenValue       ----> Required , The Value of the current element.
- *        index (Optional)  ----> The array index of the current element.
- *        arr (Optional)    ----> The array Object the current element belong to
- *
+   Syntax -->
+       array.map(function(currentValue,index,arr),thisValue)
+ 
+          Argument          Description
+ 
+         CurrenValue       ----> Required , The Value of the current element.
+         index (Optional)  ----> The array index of the current element.
+         arr (Optional)    ----> The array Object the current element belong to
+ 
+
+
