@@ -56,3 +56,20 @@ ReactDOM.render(
      
      In that case we have Props
 
+
+ import Greets from './Greets'
+ ReactDOM.render(
+      <>
+           <Greets name="Zahid">
+                <p>
+                     Hello This Is Child Paragraph Of Zahid
+                </p>
+           </Greets>
+           <Greets name="Praveen" >
+                <button>Click Me I'm Inside Praveen</button>
+           </Greets>
+           <Greets name="Clayton" />
+
+      </>,
+      document.getElementById("root")
+ );
