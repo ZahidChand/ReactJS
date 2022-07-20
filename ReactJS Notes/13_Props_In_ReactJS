@@ -30,6 +30,7 @@
  
  
   As we saw components are reuseable so we can use them whenever and wherever
+  
   we want  and how many times we want.
  
   If we use <Greets /> 3 times then it will give us the same output
