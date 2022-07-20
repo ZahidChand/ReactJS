@@ -26,3 +26,33 @@
       </>,
       document.getElementById("root")
  );
+ 
+ 
+ 
+  As we saw components are reuseable so we can use them whenever and wherever
+  we want  and how many times we want.
+ 
+  If we use <Greets /> 3 times then it will give us the same output
+ 
+  Eg -->
+         import Greets from './Greets'
+ReactDOM.render(
+     <>
+          <Greets />
+          <Greets />
+          <Greets />
+     </>,
+     document.getElementById("root")
+     );
+    
+    Output    -->
+               Hello Zahid
+               Hello Zahid
+               Hello Zahid
+ 
+     So we are greeting the same person 3 times, but what if we
+     
+     want to greet 3 different people
+     
+     In that case we have Props
+
