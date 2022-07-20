@@ -10,3 +10,19 @@
      React Props are like function arguments in JavaScript and attributes in HTML.
      
      To send props into a component, use the same syntax as HTML attributes:
+
+
+ Lets consider an example If we want to greet more than one person
+ 
+ 
+ 
+ import Greets from './Greets'
+ ReactDOM.render(
+      <>
+           <Greets />
+           <Greets />
+           <Greets />
+
+      </>,
+      document.getElementById("root")
+ );
