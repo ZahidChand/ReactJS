@@ -4,7 +4,7 @@
  for every array element.
  
   The map() calls the provided function once for each element in an array,
- in order.
+  in order.
  
  
  
