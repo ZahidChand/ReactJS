@@ -13,7 +13,7 @@ We have saw how we use html in out js file
         To use Js in HTML Element we need to add {} .
 
 
-
+ 
 NOTE --->
               In this {} we can only use expression , we cannot use Statements
               Statements are if  else,switch etc we cannot use Statements.
