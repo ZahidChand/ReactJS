@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react' 
 import ChildBComponent from './ChildCComponent';
 const ChildAComponent = () => {
     return <ChildBComponent />
