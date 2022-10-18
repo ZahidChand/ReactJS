@@ -1,4 +1,4 @@
-    When we use div tag then in browser when we inspect then we get div inside div  
+    When we use div tag then in browser when we inspect then we get div inside div   
   that means we are already passing that value to div tag whose id is root
   and again we are sending div from our JSX .
   So it can lead us to a problem that while applying css we can get some issue
