@@ -1,7 +1,7 @@
 Greeting Website In ReactJS
 
  let greeting = '';
- let curDate = new Date()
+ let curDate = new Date() 
  let curHour = curDate.getHours()
  const cssStyle = {};
 
