@@ -9,7 +9,7 @@ Greeting Website In ReactJS
    greeting = "Good Morning";
    cssStyle.color = "green";
  }
- else if (curHour >= 12 && curHour < 20) {
+ else if (curHour >= 12 && curHour < 20) { 
    greeting = "Good Afternoon";
    cssStyle.color = "orange";
  }
