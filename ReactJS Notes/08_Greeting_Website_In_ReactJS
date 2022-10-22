@@ -7,7 +7,7 @@ Greeting Website In ReactJS
 
  if (curHour >= 1 && curHour < 12) {
    greeting = "Good Morning";
-   cssStyle.color = "green";
+   cssStyle.color = "green"; 
  }
  else if (curHour >= 12 && curHour < 20) { 
    greeting = "Good Afternoon";
